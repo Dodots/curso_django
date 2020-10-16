@@ -20,14 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ded36e4-7f18-4257-90be-a5ca02427f4a" name="Default Changelist" comment="">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/qlite' failed. Should I try again" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pypro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/settings.py" afterDir="false" />
->>>>>>> a2dd9746e965fd934117b0eb01b9909ad603aeb1
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +50,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.manage">
+  <component name="RunManager" selected="Python tests.pytest for test_home.test_status_code">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="curso_django" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,6 +156,10 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.manage" />
+      <item itemvalue="Python tests.pytest for test_home.test_status_code" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest for test_home.test_status_code" />
@@ -192,6 +191,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="arrumando erro" />
+    <option name="LAST_COMMIT_MESSAGE" value="arrumando erro" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="884" y="214" key="#Inspections" timestamp="1602281215430">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -213,56 +216,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1097" y="239" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602282731261" />
-    <state width="1180" height="328" key="GridCell.Tab.0.bottom" timestamp="1602862271540">
+    <state width="1893" height="263" key="GridCell.Tab.0.bottom" timestamp="1602864191317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1180" height="328" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602862271540" />
-    <state width="1180" height="328" key="GridCell.Tab.0.center" timestamp="1602862271539">
+    <state width="1893" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602864191317" />
+    <state width="1893" height="263" key="GridCell.Tab.0.center" timestamp="1602864191317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1180" height="328" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602862271539" />
-    <state width="1180" height="328" key="GridCell.Tab.0.left" timestamp="1602862271539">
+    <state width="1893" height="263" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602864191317" />
+    <state width="1893" height="263" key="GridCell.Tab.0.left" timestamp="1602864191317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1180" height="328" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602862271539" />
-    <state width="1180" height="328" key="GridCell.Tab.0.right" timestamp="1602862271540">
+    <state width="1893" height="263" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602864191317" />
+    <state width="1893" height="263" key="GridCell.Tab.0.right" timestamp="1602864191317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1180" height="328" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602862271540" />
-    <state width="1180" height="328" key="GridCell.Tab.1.bottom" timestamp="1602862275018">
+    <state width="1893" height="263" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602864191317" />
+    <state x="703" y="101" key="SettingsEditor" timestamp="1602876438037">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1180" height="328" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602862275018" />
-    <state width="1180" height="328" key="GridCell.Tab.1.center" timestamp="1602862275018">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1180" height="328" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602862275018" />
-    <state width="1180" height="328" key="GridCell.Tab.1.left" timestamp="1602862275018">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1180" height="328" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602862275018" />
-    <state width="1180" height="328" key="GridCell.Tab.1.right" timestamp="1602862275018">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1180" height="328" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602862275018" />
-    <state x="703" y="101" key="SettingsEditor" timestamp="1602601252354">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="703" y="101" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602601252354" />
+    <state x="703" y="101" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602876438037" />
     <state width="750" height="535" key="javadoc.popup" timestamp="1602601391254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="750" height="535" key="javadoc.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602601391254" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/pypro/settings.py</url>
-          <line>79</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
