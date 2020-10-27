@@ -37,15 +37,14 @@ class UserManager(BaseUserManager):
         return self._create_user(email, password, **extra_fields)
 
 
-class UserManager(AbstractBaseUser, PermissionsMixin):
+class User(AbstractBaseUser, PermissionsMixin):
     """
-    App base User classs.
-
+    App base User class.
     Email and password are required. Other fields are optional.
     """
 
-    first_name = models.CharField(_('first name'), max_length=150, blank=True)
-    email = models.EmailField(_('email address'), Unique=True)
+    first_name = models.CharField(_('first name'), max_length=30, blank=True)
+    email = models.EmailField(_('email address'), unique=True)
     is_staff = models.BooleanField(
         _('staff status'),
         default=False,
@@ -65,7 +64,7 @@ class UserManager(AbstractBaseUser, PermissionsMixin):
 
     EMAIL_FIELD = 'email'
     USERNAME_FIELD = 'email'
-    REQUIRED_FIELDS = ['email']
+    REQUIRED_FIELDS = []
 
     class Meta:
         verbose_name = _('user')
