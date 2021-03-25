@@ -33,10 +33,10 @@
         },
         "botocore": {
             "hashes": [
-                "sha256:dc52d4eb5c2a4360506bdd8a99aca7ebc31c56849faf98c707e5201fcbb56957",
-                "sha256:edb4292afe8c66099d45b3650da4757a228d38d25dbe884040cc1804a03d5020"
+                "sha256:382d83c0a5b2106c8d0d7a67fb56945197a29cbd0f21625b032ca6941cc4ae31",
+                "sha256:c78add1ad17646cb952ee67f9f8771a26b269d682edf2708deac7c5d2bc1526d"
             ],
-            "version": "==1.19.2"
+            "version": "==1.20.37"
         },
         "dj-database-url": {
             "hashes": [
